@@ -2,6 +2,8 @@
 
 Ohmyfood est une application web conçue pour aider les utilisateurs à découvrir et à réserver des menus dans des restaurants exceptionnels. L'application présente une interface utilisateur conviviale qui permet aux utilisateurs de rechercher des restaurants, de consulter les menus et de réserver facilement.
 
+![Picture](https://github.com/filipefwebdev/Site-Web-Ohmyfood/blob/main/images/logo/readme-logo.png)
+
 ## Fonctionnalités
 
 - **Recherche de restaurants** : Recherchez facilement des restaurants par emplacement.
