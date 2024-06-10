@@ -1,0 +1,26 @@
+/*Button Page Restaurant*/
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    font-size: 1rem;
+    border-radius: 25px;
+    color: $col-bg;
+    background:linear-gradient($color-secondary, $color-primary);
+    border: none;
+    height: 50px;
+    width: 185px;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 40%);
+    margin-top: 20px;
+  
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.0);
+    opacity: 0.9;
+    transition: 200ms;
+  }
+}

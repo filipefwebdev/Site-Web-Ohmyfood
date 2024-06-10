@@ -1,0 +1,115 @@
+/*Heart*/
+.heart__empty {
+    position: absolute;
+      top: 193px;
+      right: 17px;
+      font-size: 26px;
+      z-index: 0;  
+    }
+    
+    .heart__empty:hover{
+      animation-name: get-lost;
+      animation-duration: 2000ms;
+      animation-fill-mode: forwards;
+    }
+    @keyframes get-lost{
+      0%{
+        opacity: 1;
+        transform: rotateX(90deg);
+      }
+      50%{
+        opacity: 0.5;
+        transform: rotateX(0deg);
+      }
+      100%{
+        display: none;
+        opacity: 0;
+        transform: rotateX(90deg);
+      }
+    }
+    .heart__full{
+      position: absolute;
+      top: 193px;
+      right: 17px;
+      font-size: 26px;
+      z-index: 0;
+      color: transparent;
+      
+    }
+  
+    .heart__full:hover{
+      color: transparent;
+      background-clip: text;
+      background:linear-gradient(200deg, $color-primary 35%, $color-secondary 65%);
+     -webkit-background-clip: text;
+      cursor: grab;
+      animation: heart-beat 1s linear infinite;
+    }
+  
+  
+    @keyframes heart-beat {
+      0% {
+        transform: scale(1.2);
+      }
+      
+      10% {
+        scale:(1.4);
+      }
+      
+      20% {
+        transform: scale(1.0);
+      }
+      
+      30% {
+        transform: scale(1.4);
+      }
+    
+      40% {
+        transform: scale(1.2);
+      }
+    
+      50% {
+        transform: scale(1.1);
+      }
+    
+      60% {
+        transform: scale(1.2);
+      }
+    
+      70% {
+        transform: scale(1.3);
+      }
+    }
+    
+    /*Heart Restaurant Page*/
+.heart__page{
+  display: flex;
+  align-items: center;
+
+  &-empty{
+    display: inline-flex;
+    font-size: 25px;
+    position: relative;
+    align-items: center;
+    margin: 10px 0 0 28px;
+    opacity: 2;
+}
+&-full{
+    display: inline-flex;
+    font-size: 25px;
+    position: relative;
+    align-items: center;
+    margin: 10px 0 0 -25px;
+    color: transparent;
+    
+}
+&-full:hover{
+    cursor: pointer;
+    color: transparent;
+      background-clip: text;
+      background:linear-gradient(200deg, $color-primary 35%, $color-secondary 65%);
+     -webkit-background-clip: text;
+      cursor: grab;
+      animation: heart-beat 1s linear infinite;
+}
+}

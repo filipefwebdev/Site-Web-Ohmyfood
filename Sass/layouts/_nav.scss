@@ -1,0 +1,75 @@
+/*Nav Bar*/
+.nav{
+
+  &__title{
+    margin: 35px 35px 35px 8%;
+   }
+   &__bar {
+     display: grid;
+     gap: 12px;
+     place-items: center;
+   }
+} 
+ 
+   .nav__btn {
+     display: inline-flex;
+     position: relative;
+     height: 75px;
+     width: 87%;
+     align-items: center;
+     box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 40%);
+     border: none;
+     border-radius: 15px;
+     background-color: $color-bg;
+     font-weight: 500;
+   
+   
+   & i{
+     color: grey;
+     margin-left: 40px;
+     font-size: 22px; 
+   }
+   
+   &:hover{
+     cursor: pointer;
+     background-color:  #9256dc67;
+      -webkit-animation-name: pulse;
+      animation-name: pulse;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+     }
+     &:hover i{
+       cursor: pointer;
+       color:  $color-primary;
+     
+     }
+   &-number {
+       padding: 3px 8.5px 2px 6.5px;
+       background-color: $color-primary;
+       border: 1px solid $color-primary;
+       border-radius: 22px;
+       color: $col-bg;
+       position: absolute;
+       left: -10px;
+   }
+    .nav__btn:hover &-number{
+     animation-name: rotate-center;
+     animation-duration: 1s;
+     animation-timing-function: ease-out;
+     animation-delay: 0s;
+     animation-iteration-count: 1;
+     animation-direction: reverse;
+     animation-fill-mode: none;
+   }   
+    
+   
+   &-text{
+       font-weight: 500;
+       font-family: 'Roboto' ,sans-serif;
+       font-size: 16px;
+       padding-left: 20px;
+   }
+
+  }

@@ -1,0 +1,87 @@
+@media screen and (min-width: $desktop){
+    /*Nav bar*/
+  
+    .nav__title{
+      margin-left: 4%;
+    }
+    
+    .nav__bar{
+      display: block;
+      display: flex;
+      justify-content: space-around;
+  }
+  .nav__btn {
+  width: 25%;
+  }
+
+  /*Restaurant*/
+  .restaurant{
+    height: 700px;
+  }
+  .restaurant__title{
+    margin-left: 4%;
+  }
+  .restaurant__card{
+    width: 45%;
+  }
+  
+/*Restaurant Page Menu*/
+  .border__title{
+  margin-left: 9%;
+}  
+
+.menu{
+    display: inline-flex;
+    width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  
+&__card{
+  align-items: center;
+}
+
+&__card-dish{
+  width: 80%;
+}
+&__card-dish:hover &__card-dish-text{
+  width: 65%;
+  
+}
+&__card-dish-text{
+  width: 80%;
+}
+&__card-title{
+  margin: 0 0 10px 0;
+  width: 60%;
+  text-align: center;
+}
+}
+/*Footer*/
+.footer{
+  margin-top: 60px;
+}
+.footer__list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  
+  
+} 
+.footer__lien{
+  width: 13%;
+}
+.footer__lien i{
+  display: flex;
+  align-items: center;
+}
+}
+@media screen and (min-width: $tablet)
+{
+.menu__card-dish-text{
+width: 85%;
+}
+.menu__card-dish:hover .menu__card-dish-text{
+  width: 78%;
+  
+}
+}

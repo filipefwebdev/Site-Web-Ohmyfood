@@ -1,0 +1,165 @@
+/*Nav Bar*/
+
+@-webkit-keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    
+    @keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    } 
+
+    @keyframes rotate-center {
+       
+        0% {
+          transform:rotate(0);
+        }
+        100% {
+          transform:rotate(360deg);
+        }
+      }
+      
+/*Restaurant*/ 
+
+@-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
+
+  @-webkit-keyframes rotateIn {
+    0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+    }
+    }
+    @keyframes rotateIn {
+    0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+    }
+    } 
+/*Restaurant Page Arrow Animation*/ 
+    @keyframes slideout {
+      0% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    
+      100% {
+        opacity: 0;
+        transform: translateX(-250px);
+      }
+    }
+/*Restaurant Menu Animation*/
+  
+  @-webkit-keyframes fadeIn {
+      0% {
+          opacity: 0;
+        }
+      
+        100% {
+          opacity: 1;
+        }
+       
+      }
+      @keyframes fadeIn {
+          0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+            
+            /*Animation Check roll in*/
+            
+            @-webkit-keyframes roll-in-right {
+              0% {
+                -webkit-transform: rotate(-270deg);
+                        transform: rotate(-270deg);
+                
+              }
+              100% {
+                -webkit-transform: rotate(0);
+                        transform: rotate(0);
+              }
+            }
+            
+            @keyframes roll-in-right {
+              0% {
+                -webkit-transform: rotate(-270deg);
+                        transform: rotate(-270deg);
+                
+              }
+              100% {
+                -webkit-transform: rotate(0);
+                        transform: rotate(0);
+                
+              }
+            } 
+          

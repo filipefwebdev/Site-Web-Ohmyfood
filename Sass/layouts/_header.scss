@@ -1,0 +1,40 @@
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-family: "Shrikhand", cursive;
+    text-align: center;
+    height: 70px;
+    margin: 0px;
+    background-color: $color-bg;
+  
+  & h1{
+      font-size: 35px;
+      margin: 0;
+  }
+}
+
+/*Restaurant Page arrow*/
+.head-arrow-empty{
+  position: absolute;
+  font-size: 20px;
+  color: transparent;
+  background-clip: text;
+  background:linear-gradient(200deg, $color-primary 35%, $color-secondary 65%);
+ -webkit-background-clip: text;
+  left: 28px;
+  top: 28px;    
+}
+.head-arrow-full{
+  position: absolute;
+  left: 28px;
+  top: 28px;
+  font-size: 20px;
+  color: $color-ink;;
+  
+}
+.head-arrow-full:hover{
+  cursor: pointer;
+  animation: slideout 1s normal forwards;
+  animation-delay: 0.1s;
+}

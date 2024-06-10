@@ -1,0 +1,172 @@
+/*Menu restaurant page*/ 
+
+/*border menu*/
+.border{
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+    top: -28px;
+    height: 70px;
+    background-color: $color-bg;
+    border: 5px none;
+    border-radius: 35px 35px 0px 0px;
+
+/*title restaurant page*/
+
+
+&__title{
+ font-family: "Shrikhand", cursive;
+ font-size: 28px;
+ margin-left: 7%;
+
+}
+
+}
+
+/*Card Resturant*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: $color-bg;
+    border: 5px none;
+    border-radius: 35px 35px 0px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+&__card{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 95%;
+    margin-bottom: 25px;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 3s ease-in;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+&card:nth-child(1){
+    animation-delay:.1s;
+}
+
+&__card:nth-child(2){
+    animation-delay:.5s;
+}
+
+&__card:nth-child(3){
+    animation-delay:.9s;
+}
+&__card-title{
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 10px 7%;
+    width: 10%;
+    border-bottom: 4px solid;
+    border-color: $color-tertiary;
+}
+
+&__card-dish{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px $shadow;
+    gap: 15px;
+    overflow: hidden;
+   
+    
+    
+    
+    
+}
+&__card-dish:hover &__card-dish-price-valition {
+    cursor: pointer;
+    margin-right: 70px;
+    
+    
+}
+&__card-dish:hover &__card-dish-price-valition .fa-solid.fa-circle-check{
+    animation: roll-in-right 0.6s;
+    animation-delay: 0.3s;
+    
+    
+}
+&__card-dish:hover &__card-dish-text{
+    width: 55%;
+    
+}
+ 
+&__card-dish-text{
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 9px 5px 5px 5%;
+    transition: width 0.7s ease-in;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+&__card-dish-title{
+    font-size: 17px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+} 
+&__card-dish-subtitle{
+    font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+&__card-dish-price{
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 0px 12px 0px;
+    font-weight: 500;
+    
+}
+&__card-dish-price-valition{
+    position: absolute;
+    top: 0px;
+    right: -70px;
+    width: 70px;
+    height: 70px;
+    background-color: #99E2D0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: margin-right 0.7s ease-in;
+}
+
+}
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+

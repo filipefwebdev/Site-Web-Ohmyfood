@@ -1,0 +1,25 @@
+.research{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #e7e7e7;
+    box-shadow: inset 0px 3px 7px $shadow;
+  
+    &__dot {
+    position: relative;
+   }
+  
+  &__imput {
+    position: relative;
+    width: 130px;
+    height: 50px;
+    border: none;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+    background-color: #e7e7e7;
+    font-size: 15px;
+  }
+}

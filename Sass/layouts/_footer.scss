@@ -1,0 +1,37 @@
+/*Footer*/
+
+.footer {
+  background-color: $color-footer;
+  color: $col-bg;
+  margin-top: 30px;
+  height: 280px;
+
+  &__list {
+    margin-left: 7%;
+  }
+  &__title {
+    margin: 0;
+    margin-left: 7%;
+    padding: 20px 0 10px 0;
+    font-weight: 400;
+    font-size: 1.15rem;
+    font-family: "Shrikhand", cursive;
+    font-weight: 400;
+    color: $color-bg;
+  }
+}
+.footer__lien {
+  display: flex;
+  align-items: center;
+  & p {
+    margin-left: 5px;
+  }
+  & i {
+    display: flex;
+    align-items: center;
+  }
+}
+.footer__lien a {
+  text-decoration: none;
+  color: $col-bg;
+}
