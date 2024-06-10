@@ -14,7 +14,6 @@ Ohmyfood est une application web conçue pour aider les utilisateurs à découvr
 
 - **HTML5** : Structure des pages web.
 - **CSS3** : Mise en page et style de l'application.
-- **JavaScript** : Éléments interactifs et contenu dynamique.
 - **FontAwesome** : Icônes utilisées tout au long du site.
 - **Google Fonts** : Polices personnalisées pour une typographie améliorée.
 
